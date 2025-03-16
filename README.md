@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ThaheeraHeiza
-- 👀 I’m interested in meke up and cute outfit
+- 👀 I’m interested in make up and cute outfit
 - 🌱 I’m currently learning coding
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
