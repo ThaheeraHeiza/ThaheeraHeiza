@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <h1>Thaheera Heiza S</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,7 +19,7 @@
     </header>
     <section>
         <h2>About Me</h2>
-        <p>Short bio about yourself, your skills, and interests.</p>
+        <p>Mahasiswa semester 3 jurusan Sistem Informasi yang bersemangat dengan pengetahuan dasar yang kuat di bidang teknologi informasi. Aktif terlibat dalam kegiatan kampus, termasuk menjadi panitia dalam berbagai acara dan aktif sebagai staff BEM di Kementrian Ekonomi Kreatif dan Kerjasama. Mampu mengoperasikan Microsoft 365 dan Canva dengan baik. Memiliki keterampilan komunikasi, kepemimpinan, manajemen waktu, serta mampu bekerja dalam tim dan cepat beradaptasi.</p>
         <img src="profile.jpg" alt="Your Photo" width="150">
     </section>
 </body>
