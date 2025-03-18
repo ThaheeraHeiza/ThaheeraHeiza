@@ -20,13 +20,27 @@
     </section>
     <section>
         <h2>Work Experience</h2>
-        <p>1. Panitia acara lintas iman (Divisi Sekretariat), 2022
-2. Workshop Youth Leadership Gusdurian di Jakarta (Peserta), 2023
-3. Panitia acara Assosiasi Mahasiswa Nasional (Divisi Humreg), 2024 
-4. Panitia SEMNAS ITPLN (Divisi Perkap), 2024
-5. Panitia acara Assosiasi Mahasiswa Nasional (Divisi Acara), 2025
-6. Panitia LKMM Pra-TD (Divisi Mentor), 2025
-7. Staff BEM di Kementrian Ekonomi Kreatif dan Kerjasama, 2025</p>
+        <p>1. Panitia acara lintas iman (Divisi Sekretariat), 2022</p>
+        <p>2. Workshop Youth Leadership Gusdurian di Jakarta (Peserta), 2023</p>
+        <p>3. Panitia acara Assosiasi Mahasiswa Nasional (Divisi Humreg), 2024</p> 
+        <p>4. Panitia SEMNAS ITPLN (Divisi Perkap), 2024</p>
+        <p>5. Panitia acara Assosiasi Mahasiswa Nasional (Divisi Acara), 2025</p>
+        <p>6. Panitia LKMM Pra-TD (Divisi Mentor), 2025</p>
+        <p>7. Staff BEM di Kementrian Ekonomi Kreatif dan Kerjasama, 2025</p>
+    </section>
+</body>
+</html>
+<section>
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
     </section>
 </body>
 </html>
