@@ -3,119 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Personal Profile - Thaheera Heiza S</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <h2>About Me</h2>
-        <p>Mahasiswa semester 3 jurusan Sistem Informasi yang bersemangat dengan pengetahuan dasar yang kuat di bidang teknologi informasi. Aktif terlibat dalam kegiatan kampus, termasuk menjadi panitia dalam berbagai acara dan aktif sebagai staff BEM di Kementrian Ekonomi Kreatif dan Kerjasama. Mampu mengoperasikan Microsoft 365 dan Canva dengan baik. Memiliki keterampilan komunikasi, kepemimpinan, manajemen waktu, serta mampu bekerja dalam tim dan cepat beradaptasi.</p>
-        <img src="profile.jpg" alt="Your Photo" width="150">
-    </section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <div class="container text-center mt-5">
+        <img src="profile.jpg" alt="Profile Picture" class="rounded-circle" width="150">
+        <h1 class="mt-3">Thaheera Heiza Syarifatunnisa</h1>
+        <p>Mahasiswa Sistem Informasi di Institut Teknologi PLN</p>
+        <p>Skill: Microsoft 365, Canva, Dasar-dasar Sistem Informasi</p>
+        <p>Soft Skill: Komunikasi, Kepemimpinan, Manajemen Waktu, Kerja Sama Tim, Adaptabilitas</p>
+    </div>
+    <div class="container mt-5">
+        <h2>Pengalaman Kerja</h2>
+        <ul>
+            <li>Panitia acara lintas iman (Divisi Sekretariat), 2022</li>
+            <li>Workshop Youth Leadership Gusdurian di Jakarta (Peserta), 2023</li>
+            <li>Panitia acara Assosiasi Mahasiswa Nasional (Divisi Humreg), 2024</li>
+            <li>Panitia SEMNAS ITPLN (Divisi Perkap), 2024</li>
+            <li>Panitia acara Assosiasi Mahasiswa Nasional (Divisi Acara), 2025</li>
+            <li>Panitia LKMM Pra-TD (Divisi Mentor), 2025</li>
+            <li>Staff BEM di Kementrian Ekonomi Kreatif dan Kerjasama, 2025</li>
+        </ul>
+    </div>
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        &copy; 2025 Thaheera Heiza S. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-    <section>
-        <h2>Education</h2>
-        <p>Institut Teknologi PLN - S1 Sistem Informasi</p>
-    </section>
-    <section>
-        <h2>Work Experience</h2>
-        <p>1. Panitia acara lintas iman (Divisi Sekretariat), 2022</p>
-        <p>2. Workshop Youth Leadership Gusdurian di Jakarta (Peserta), 2023</p>
-        <p>3. Panitia acara Assosiasi Mahasiswa Nasional (Divisi Humreg), 2024</p> 
-        <p>4. Panitia SEMNAS ITPLN (Divisi Perkap), 2024</p>
-        <p>5. Panitia acara Assosiasi Mahasiswa Nasional (Divisi Acara), 2025</p>
-        <p>6. Panitia LKMM Pra-TD (Divisi Mentor), 2025</p>
-        <p>7. Staff BEM di Kementrian Ekonomi Kreatif dan Kerjasama, 2025</p>
-    </section>
-</body>
-</html>
-<section>
-        <h2>Get in Touch</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-</body>
-</html>
-
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-section {
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-img {
-    border-radius: 50%;
-    margin-top: 10px;
-}
-
-form {
-    text-align: left;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background: #333;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-button:hover {
-    background: #555;
-}
-
-
