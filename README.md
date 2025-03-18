@@ -24,3 +24,34 @@
     </section>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My CV</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Education</h2>
+        <p>Institut Teknologi PLN - Sistem Informasi</p>
+    </section>
+    <section>
+        <h2>Work Experience</h2>
+        <p>Project pengalaman atau pekerjaan yang telah dilakukan.</p>
+    </section>
+</body>
+</html>
+
